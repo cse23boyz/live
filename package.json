@@ -1,5 +1,5 @@
 {
-  "homepage":"https://SriMuthuna.github.io/Live-Weather-Dashboard-Final",
+  "homepage":"https://cse23boyz.github.io/live",
   "name": "my-weather-dashboard",
   "private": true,
   "version": "0.0.0",
@@ -7,13 +7,13 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+     "predeploy":"npm run build,",
+    "depoly":"gh-pages -d build",
     "preview": "vite preview"
   },
   "dependencies": {
     "axios": "^1.12.2",
     "react": "^19.1.1",
-    "predeploy":"npm run build,",
-    "depoly":"gh-pages -d build",
     "react-dom": "^19.1.1",
     "recharts": "^3.2.1"
   },
