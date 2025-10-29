@@ -1,5 +1,5 @@
 {
-  "homepage":"https://cse23boyz.github.io/live",
+  "homepage": "https://cse23boyz.github.io/live",
   "name": "my-weather-dashboard",
   "private": true,
   "version": "0.0.0",
@@ -7,15 +7,17 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-     "predeploy":"npm run build,",
-    "depoly":"gh-pages -d build",
+    "predeploy": "npm run build,",
+    "depoly": "gh-pages -d build",
     "preview": "vite preview"
   },
   "dependencies": {
     "axios": "^1.12.2",
+    "gh-pages": "^6.3.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "recharts": "^3.2.1"
+    "recharts": "^3.2.1",
+    "save": "^2.9.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
